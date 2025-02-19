@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">isMyWebsiteUp</string>
+    <string name="task">Задача</string>
+    <string name="schedule">Расписание</string>
+    <string name="result">Результат</string>
+    <string name="about">О программе</string>
+    <string name="license">Лицензия</string>
+    <string name="version">Версия</string>
+    <string name="close">Закрыть</string>
+    <string name="permissions">Разрешения</string>
+    <string name="permissions_in_this_app">Разрешения в этом приложении</string>
+    <string name="internet">Интернет</string>
+    <string name="internet_d">Для проверки ваших указанных веб-сайтов ТОЛЬКО.</string>
+    <string name="access_network_state">Доступ к состоянию сети</string>
+    <string name="access_network_state_d">Для проверки соединения с Wi-Fi или данными, или отсутствия связи.</string>
+    <string name="receive_boot_completed">Получить завершение загрузки</string>
+    <string name="receive_boot_completed_d">Для продолжения запланированных задач после перезагрузки устройства.</string>
+    <string name="wake_lock">Блокировка пробуждения</string>
+    <string name="wake_lock_d">Для удерживания процессора в активном состоянии, когда он работает, но экран выключен. Вы можете отключить это в "конфигурации".</string>
+    <string name="request_ignore_battery_optimizations">Запросить \nигнорировать \nоптимизацию \nэнергии</string>
+    <string name="request_ignore_battery_optimizations_d">Для запроса отключения оптимизации батареи. Только если вы это используете.</string>
+    <string name="configuration">Конфигурация</string>
+    <string name="theme_configuration">Конфигурация темы</string>
+    <string name="run">Выполнить</string>
+    <string name="run_check">Выполнить проверку</string>
+    <string name="schedule_check">Запланировать проверку</string>
+    <string name="required">Необходимое</string>
+    <string name="URL">Ссылка</string>
+    <string name="optional">Варианты</string>
+    <string name="also_check_if_hyperlinks_are_up">Также проверьте, работают ли гиперссылки</string>
+    <string name="check_hyperlinks_max_depth">Проверить максимальную глубину гиперссылок</string>
+    <string name="check_hyperlink_only_if_match_regex">Проверять гиперссылку только в случае совпадения с регулярным выражением</string>
+    <string name="check_regex">Проверить регулярное выражение</string>
+    <string name="dont_check_hyperlink_if_match_regex">Не проверять гиперссылку, если совпадает с регулярным выражением</string>
+    <string name="dont_check_regex">Не проверять регулярное выражение</string>
+    <string name="send_referer">Отправить реферер</string>
+    <string name="referer">Реферер</string>
+    <string name="check_hyperlinks_only_to_specific_domains">Проверять гиперссылки только на конкретные домены</string>
+    <string name="domains">Домены (разделенные запятыми)</string>
+    <string name="ignore_part">Игнорировать часть # и ?</string>
+    <string name="check_javascript_hyperlinks">Проверять гиперссылки JavaScript</string>
+    <string name="user_agent">Пользовательский агент</string>
+    <string name="accept_header">Заголовок Accept</string>
+    <string name="timeout">Таймаут (секунды)</string>
+    <string name="retry">Повторить</string>
+    <string name="retry_delay">Задержка повтора (секунды)</string>
+    <string name="send_do_not_track_dnt">Отправить Do-Not-Track (DNT)</string>
+    <string name="authorization_header">Заголовок авторизации</string>
+    <string name="accept_charset_header">Заголовок Accept-Charset</string>
+    <string name="accept_encoding_header">Заголовок Accept-Encoding</string>
+    <string name="accept_language_header">Заголовок Accept-Language</string>
+    <string name="custom_headers_json">Пользовательские заголовки (JSON)</string>
+    <string name="check_binary_response">Проверять бинарные ответы</string>
+    <string name="multi_connections">Мультисоединения</string>
+    <string name="buffer_size">Размер буфера (КБ)</string>
+    <string name="code">HTTP-код</string>
+    <string name="received">Получено</string>
+    <string name="from_hyperlink">[из ссылки]</string>
+    <string name="ignore_binary">Игнорируемый бинарный</string>
+    <string name="ignore_ssl_and_tls_errors">Игнорировать ошибки SSL и TLS</string>
+    <string name="KB">КБ</string>
+    <string name="ignored_domains">Игнорируемые домены</string>
+    <string name="ignored_by_regex">Игнорируется по регулярному выражению</string>
+    <string name="bullet">→</string>
+    <string name="every">Каждый</string>
+    <string name="name">Имя</string>
+    <string name="minutes">Минуты</string>
+    <string name="hours">Часы</string>
+    <string name="days">Дни</string>
+    <string name="weeks">Недели</string>
+    <string name="save">Сохранить</string>
+    <string name="copy_schedule">Копировать</string>
+    <string name="cancel">Отменить</string>
+    <string name="delete">Удалить</string>
+    <string name="run_now">Выполнить сейчас</string>
+	<string name="youre_editing_a_copied_schedule_now_it_is_not_yet_saved">
+        Вы редактируете скопированное расписание, оно еще не сохранено.
+    </string>
+ 	<string name="should_schedules_also_run_when_the_device_standby">Должны ли расписания также выполняться во время ожидания устройства?</string>
+	<string name="we_will_need_your_permission">Нам понадобится ваше разрешение.</string>
+	<string name="deleting">Удаление.</string>
+	<string name="confirm_delete">Подтвердить удаление?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="schedule_not_yet_saved">Расписание еще не сохранено.</string>
+    <string name="search">Поиск</string>
+    <string name="last_run">Последний выполнения</string>
+    <string name="saved">Сохранено.</string>
+    <string name="deleted">Удалено.</string>
+    <string name="auto_clean_success_results_after">Автоочистка успешных результатов через (дни)</string>
+    <string name="auto_clean_fail_results_after">Автоочистка неуспешных результатов через (дни)</string>
+    <string name="auto_clean_old_results_when_there_are_more_than">Автоочистка старых результатов, когда их больше чем</string>
+    <string name="clean_all_finished_results_now">Очистить все завершенные результаты сейчас</string>
+    <string name="error">Ошибка</string>
+    <string name="check_the_url">Проверьте ссылку.</string>
+    <string name="check_the_custom_headers">Проверьте пользовательские заголовки.</string>
+    <string name="check_the_name">Проверьте имя.</string>
+    <string name="check_the_times">Проверьте время.</string>
+    <string name="it_is_running_now">Сейчас выполняется.</string>
+    <string name="advanced">Расширенный</string>
+    <string name="db_refresh_rate_ms">Частота обновления БД (мс)</string>
+    <string name="queueing">Очередь.</string>
+    <string name="waiting_for_retry">Ожидание повторной попытки</string>
+    <string name="warning">Внимание</string>
+    <string name="use_at_your_own_risk">Это может быть небезопасно. Используйте на свой страх и риск!</string>
+    <string name="progress">Прогресс</string>
+    <string name="connection_problem">Проблема с соединением</string>
+    <string name="no_connection_for_scheduled_task">Нет соединения для запланированной задачи.</string>
+    <string name="no_wifi_for_scheduled_task">Нет Wi-Fi для запланированной задачи.</string>
+    <string name="scheduled_task_cannot_start_we_will_retry_again_soon">Запланированная задача не может начать, мы попробуем снова скоро.</string>
+    <string name="when_there_is_a_connection_problem">Когда есть проблема с соединением и задачи не могут выполняться</string>
+    <string name="website_down">Сайт недоступен</string>
+    <string name="progress_when_we_are_running_in_background">Прогресс, когда мы работаем в фоновом режиме</string>
+    <string name="when_your_website_is_down">Когда ваш сайт недоступен</string>
+    <string name="waiting_on_connection">Ожидание соединения</string>
+    <string name="running">Выполняется</string>
+    <string name="website_seems_down">Сайт кажется недоступным!</string>
+    <string name="power">Энергия</string>
+    <string name="allow_inexact_schedule_times_to_save_power">Разрешить неточные временные графики для экономии энергии</string>
+    <string name="use_wake_lock_when_in_background">Использовать блокировку пробуждения, когда в фоновом режиме</string>
+    <string name="debug">Отладка</string>
+    <string name="force_start_task_without_checking_if_connected">Принудительно запустить задачи, не проверяя подключение</string>
+    <string name="proxy">Прокси</string>
+    <string name="wifi_only">Только Wi-Fi</string>
+    <string name="use_proxy">Использовать прокси</string>
+    <string name="proxy_type">Тип прокси</string>
+<array name="proxy_types">
+    <item>"HTTP"</item>
+    <item>"SOCKS"</item>
+</array>
+    <string name="proxy_address">Адрес прокси</string>
+    <string name="proxy_port">Порт прокси</string>
+    <string name="disable_battery_optimizations">Отключить оптимизацию батареи</string>
+    <string name="this_is_already_disabled">Это уже отключено.</string>
+    <string name="this_is_not_available_in_your_version_of_android">Это недоступно в вашей версии Android.</string>
+    <string name="title_activity_license">Лицензия</string>
+    <string name="loading">Загрузка</string>
+    <string name="guide">Управление</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="swipe_to_read_the_quick_guide_or_press_the_left_button_to_close_the_guide">
+    Проведите, чтобы прочитать краткое руководство, или нажмите левую кнопку, чтобы закрыть руководство.
+</string>
+    <string name="type_url_or_web_address">
+    1 - Введите ссылку или веб-адрес.
+</string>
+    <string name="configure_more_if_you_want">
+    2 - Настройте больше, если хотите.
+</string>
+    <string name="run_check_now_or_schedule_regular_automatic_check">
+    3 - Выполните проверку сейчас или запланируйте регулярную автоматическую проверку.
+</string>
+    <string name="for_schedule_type_name_of_schedule_and_time">
+    4 - Для расписания введите имя расписания и время.
+</string>
+    <string name="see_results">
+    5 - Просмотр результатов.
+</string>
+    <string name="for_schedule_you_will_also_notification_if_your_website_is_down">
+        6 - В рамках расписания вы также получите уведомление, если ваш сайт недоступен.
+    </string>
+        <string name="discover_many_extra_features">
+        7 - Откройте для себя множество дополнительных функций!
+    </string>
+        <string name="you_are_ready_now">
+        8 - Вы теперь готовы!
+    </string>
+        <string name="thank_you_for_choosing_free_and_open_source_software">
+        Спасибо, что выбрали бесплатное и открытое ПО.
+    </string>
+    <string name="this_program_is_free_software">
+    Данное ПО является свободным: вы можете распространять и/или изменять
+    его в соответствии с условиями GNU General Public License, опубликованной
+    Фондом свободного ПО, либо версии 3 лицензии, либо
+    (по вашему выбору) любой следующей версии.
+
+    Данное ПО распространяется в надежде, что оно окажется полезным,
+    но БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ; даже без подразумеваемых гарантий
+    товарной ценности или пригодности для конкретной цели. См.
+    GNU General Public License для получения дополнительных сведений.
+	 </string>
+
+</resources>
